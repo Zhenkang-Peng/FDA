@@ -1,4 +1,4 @@
-# FDA_Meituan
+# FDA
 This repository is intended to showcase the code used in the paper.
 
 ## Data
