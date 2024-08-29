@@ -1,10 +1,10 @@
 # FDA
-This repository is intended to showcase the code used in the paper.
+This repository shows how combining different models, trained on various levels of data, can lead to better predictions.
 
 ## Data
-The **train.csv.zip** file contains the actual data used in our paper for comparing all methods. This dataset, sourced from a Kaggle competition, comes from Rossmann, a European pharmacy chain operating in seven countries. You can also access the dataset [here](https://www.kaggle.com/competitions/rossmann-store-sales).
+The **train.csv.zip** file contains the data used for comparing different methods. This dataset is from a Kaggle competition and comes from Rossmann, a European pharmacy chain in seven countries. You can also access the dataset [here](https://www.kaggle.com/competitions/rossmann-store-sales).
 
 ## Code
-1. **data_propressing.ipynb** is for data processing. The data processing methods described in the paper will be demonstrated and detailed in this Jupyter Notebook.
-2. **all_methods.py**  contains all the algorithm functions mentioned in the paper, which are used by the main function. The algorithms include our proposed FDA linear and FDA tree methods, as well as other benchmark algorithms: Decoupled OLS, Shared OLS, DAC, Shrunken SAA, PAB linear, and PAB tree.
-3. **main.ipynb** is the primary Jupyter Notebook used to demonstrate and execute various algorithms, as well as to calculate cost and runtime.
+1. **data_propressing.ipynb** This Jupyter Notebook demonstrates how the data is processed.
+2. **all_methods.py**  This Python file contains all the algorithm functions used by the main program. It includes our FDA linear and FDA tree methods, along with other benchmark algorithms like Decoupled OLS, Shared OLS, DAC, Shrunken SAA, PAB linear, and PAB tree.
+3. **main.ipynb** This is the main Jupyter Notebook that runs the different algorithms, calculates costs, and tracks runtime.
